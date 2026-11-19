@@ -13,26 +13,26 @@ html{scrollbar-width:none}::-webkit-scrollbar{display:none}
 .in{margin:0 auto;padding:0 3vw}
 header{position:sticky;top:0;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);z-index:10}
 header .in{display:flex;align-items:center;justify-content:space-between;gap:20px;height:78px;border-bottom:1px solid var(--line)}
-.logo{display:flex;align-items:center;gap:10px;font:800 24px Rubik,sans-serif}
+.logo{display:flex;align-items:center;gap:10px;font:800 1.6vw Rubik,sans-serif}
 .logo b{background:var(--accent);color:#fff;border-radius:8px;padding:2px 9px}
-nav{display:flex;gap:28px;font-size:15px}nav a{white-space:nowrap}
+nav{display:flex;gap:28px;font-size:1vw}nav a{white-space:nowrap}
 nav a{color:var(--muted);text-decoration:none}
 nav a:hover{color:var(--ink)}
-.ph{color:var(--accent-d);font-weight:700;font-size:14px;white-space:nowrap}
-.btn{display:inline-flex;align-items:center;justify-content:center;font:700 16px Rubik,sans-serif;padding:16px 26px;border-radius:999px;text-decoration:none;border:0;cursor:pointer}
+.ph{color:var(--accent-d);font-weight:700;font-size:1vw;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;font:700 1.1vw Rubik,sans-serif;padding:1.1vw 1.8vw;border-radius:999px;text-decoration:none;border:0;cursor:pointer}
 .btn.t{background:var(--accent);color:#fff}.btn.w{border:2px solid rgba(19,49,61,.35);color:var(--ink)}
 .btn.t:hover{background:var(--accent-d)}
-header .btn{padding:11px 20px;font-size:15px}
+header .btn{padding:.8vw 1.4vw;font-size:1vw}
 .hero{background:linear-gradient(180deg,#9CDCE8 0%,#8FD3E0 55%,#F0F7FA 100%)}
 .hero .in{display:grid;grid-template-columns:1fr 1fr;gap:4vw;align-items:stretch;padding-top:4vw;padding-bottom:4.5vw;padding-right:0}
 h1{font:800 3.8vw/1.05 Rubik,sans-serif;margin:0 0 18px}
 h1 span{color:var(--accent-d)}
-.lead{font-size:19px;color:var(--muted);max-width:32ch;margin:0 0 28px}
+.lead{font-size:1.4vw;color:var(--muted);margin:0 0 2vw}
 .row{display:flex;gap:12px;flex-wrap:wrap}
 .list{margin-top:30px;display:grid;gap:0;max-width:440px;border-top:1px solid var(--line)}
-.list div{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--line);font-size:16px}
+.list div{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--line);font-size:1.05vw}
 .list b{color:var(--accent-d);font-weight:700}
-.info{margin-top:20px;display:flex;gap:16px;flex-wrap:wrap;font-weight:700;font-size:14px;color:var(--accent-d)}
+.info{margin-top:20px;display:flex;gap:16px;flex-wrap:wrap;font-weight:700;font-size:1vw;color:var(--accent-d)}
 .pic{position:relative;border-radius:30px 0 0 30px;overflow:hidden;aspect-ratio:1/1.05;max-height:82vh;box-shadow:0 24px 60px rgba(19,49,61,.16)}
 .pic img{width:100%;height:100%;object-fit:cover;display:block}
 .stamp{position:absolute;right:18px;top:18px;background:#fff;color:var(--ink);border-radius:18px;padding:14px 16px;font-weight:800;line-height:1.2;text-align:center;box-shadow:0 8px 24px rgba(19,49,61,.14)}
@@ -41,23 +41,23 @@ h1 span{color:var(--accent-d)}
 .sec h2{font:800 2.8vw/1.1 Rubik,sans-serif;margin:0 0 12px}
 .sec .sub{color:var(--muted);margin:0 0 36px;max-width:52ch}
 .usp{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.usp div{background:var(--panel);border-radius:18px;padding:22px 20px;font-size:15px;color:var(--muted);box-shadow:0 10px 30px rgba(19,49,61,.07)}
-.usp b{display:block;color:var(--ink);font-size:17px;margin-bottom:6px}
+.usp div{background:var(--panel);border-radius:18px;padding:22px 20px;font-size:1vw;color:var(--muted);box-shadow:0 10px 30px rgba(19,49,61,.07)}
+.usp b{display:block;color:var(--ink);font-size:1.15vw;margin-bottom:6px}
 .price{max-width:760px;border-top:1px solid var(--line)}
-.price div{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--line);font-size:16px}
+.price div{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--line);font-size:1.05vw}
 .price span{color:var(--muted)}
 .price b{color:var(--accent-d);white-space:nowrap}
 .gar{background:var(--panel);border-radius:24px;padding:36px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;max-width:860px;box-shadow:0 10px 30px rgba(19,49,61,.07)}
-.gar .num{font:800 64px/1 Rubik,sans-serif;color:var(--accent-d)}
+.gar .num{font:800 4.5vw/1 Rubik,sans-serif;color:var(--accent-d)}
 .gar p{margin:0;color:var(--muted);max-width:56ch}
 form.feed{max-width:560px;display:grid;gap:14px;margin-top:8px}
-form.feed input,form.feed textarea{font:500 16px Rubik,sans-serif;padding:15px 18px;border-radius:14px;border:1px solid var(--line);background:#fff;color:var(--ink)}
+form.feed input,form.feed textarea{font:500 1.05vw Rubik,sans-serif;padding:15px 18px;border-radius:14px;border:1px solid var(--line);background:#fff;color:var(--ink)}
 form.feed input::placeholder,form.feed textarea::placeholder{color:var(--muted)}
 form.feed textarea{min-height:96px;resize:vertical}
-.fine{font-size:13px;color:var(--muted)}
-.cont{display:flex;gap:26px;flex-wrap:wrap;font-size:16px;margin-bottom:36px}
-.cont div b{display:block;color:var(--accent-d);font-size:14px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
-footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+.fine{font-size:.9vw;color:var(--muted)}
+.cont{display:flex;gap:26px;flex-wrap:wrap;font-size:1.05vw;margin-bottom:36px}
+.cont div b{display:block;color:var(--accent-d);font-size:1vw;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:1vw}
 footer .in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .slot{color:var(--accent-d);font-weight:700}
 @media (max-width:700px){
@@ -76,7 +76,7 @@ footer .in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <section class="hero"><div class="in">
   <div>
     <h1>Мастер, который знает Вашу машину <span>лучше, чем Вы сами</span></h1>
-    <p class="lead">Автосервис в <span class="slot">[Город]</span>. Согласуем каждую работу и цену до начала ремонта. Гарантия 6 месяцев на запчасти и работу.</p>
+    <p class="lead">Автосервис в <span class="slot">[Город]</span>.<br>Согласуем каждую работу и цену до начала ремонта.<br>Гарантия 6 месяцев на запчасти и работу.</p>
     <div class="row">
       <a class="btn t" href="{{ссылка-записи}}" target="_blank" rel="noopener">Записаться на диагностику</a>
       <a class="btn w" href="tel:{{телефон}}">Позвонить</a>
@@ -84,7 +84,7 @@ footer .in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <div class="list"><div>Диагностика при ремонте<b>0 ₽</b></div><div>Техобслуживание<b>от 3 500 ₽</b></div><div>Ремонт ходовой<b>от 1 200 ₽</b></div></div>
     <div class="info"><span>[Часы работы]</span><span>[Адрес]</span></div>
   </div>
-  <div class="pic"><img src="assets/avtoservis-hero.png" alt="Светлый цех автосервиса: автомобиль на подъёмнике, мастер с планшетом"><div class="stamp">6 месяцев<small>гарантия</small></div></div>
+  <div class="pic"><img src="assets/avtoservis-hero.png" alt="Светлый цех автосервиса: автомобиль на подъёмнике, мастер с планшетом"></div>
 </div></section>
 
 <section class="sec sec-light" id="uslugi"><div class="in">
